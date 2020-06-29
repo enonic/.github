@@ -1,0 +1,11 @@
+{
+  "name": "Gradle Enonic Workflow",
+  "description": "Enonic Gradle Wrapper CI workflow template.",
+  "iconName": "gradle-icon",
+  "categories": [
+    "Gradle"
+  ],
+  "filePatterns": [
+    "^gradlew$"
+  ]
+}
