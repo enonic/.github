@@ -24,7 +24,7 @@ jobs:
             ${{ runner.os }}-gradle-
       - run: ./gradlew build
 
-      - uses: codecov/codecov-action@v1.2.1
+      - uses: codecov/codecov-action@v1.0.15
 
       ### PUBLISHING STEPS ###
 
@@ -82,12 +82,10 @@ jobs:
 
       - name: Commit and push new version
         if: steps.publish_vars.outputs.release == 'true'
-        uses: EndBug/add-and-commit@v6.2.0
+        uses: EndBug/add-and-commit@v7
         with:
           add: ./gradle.properties
           message: 'Updated to next SNAPSHOT version'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   release_notes:
     runs-on: ubuntu-latest
