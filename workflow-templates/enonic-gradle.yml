@@ -25,7 +25,7 @@ jobs:
 
       - name: Get publishing variables
         id: publish_vars
-        uses: enonic/release-tools/publish-vars@publish-vars-composite
+        uses: enonic/release-tools/publish-vars@master
         env:
           PROPERTIES_PATH: './gradle.properties'
           GITHUB_REPO_PRIVATE: ${{github.event.repository.private}}
