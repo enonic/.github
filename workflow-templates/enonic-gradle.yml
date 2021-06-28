@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     outputs:
-      publish: ${{ github.ref == 'refs/heads/master' && steps.publish_vars.outputs.repo }}
+      publish: ${{ github.ref == 'refs/heads/master' && steps.publish_vars.outputs.repo != null }}
       repo: ${{ steps.publish_vars.outputs.repo }}
       release: ${{ steps.publish_vars.outputs.release }}
       tag_name: ${{ steps.publish_vars.outputs.tag_name }}
@@ -57,13 +57,6 @@ jobs:
       - run: ./gradlew build -Pcom.enonic.xp.app.production=true
 
       - uses: codecov/codecov-action@v1
-
-      - name: Get publishing variables
-        id: publish_vars
-        uses: enonic/release-tools/publish-vars@publish-vars-composite
-        env:
-          PROPERTIES_PATH: './gradle.properties'
-          GITHUB_REPO_PRIVATE: ${{github.event.repository.private}}
 
       - name: Publish
         if: needs.publish_vars.outputs.publish == 'true'
