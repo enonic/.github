@@ -84,6 +84,7 @@ jobs:
 
       - name: Commit and push new version
         if: needs.publish_vars.outputs.release == 'true'
+        continue-on-error: true
         uses: EndBug/add-and-commit@v7
         with:
           add: ./gradle.properties
