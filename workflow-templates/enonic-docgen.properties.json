@@ -1,0 +1,11 @@
+{
+  "name": "Enonic Documentation",
+  "description": "Generate Documentation Import for Enonic Developer Portal template.",
+  "iconName": "octicon book",
+  "categories": [
+    "Automation"
+  ],
+  "filePatterns": [
+    "^docs/.*\\.adoc$"
+  ]
+}
