@@ -1,6 +1,6 @@
 {
   "name": "Enonic Documentation",
-  "description": "Generate Documentation Import for Enonic Developer Portal template.",
+  "description": "Generate Documentation Import for Enonic Developer Portal.",
   "iconName": "octicon book",
   "categories": [
     "Automation"
