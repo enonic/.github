@@ -15,3 +15,4 @@ jobs:
       - uses: enonic/release-tools/generate-docs@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          webhook-secret: ${{ secrets.DEVELOPER_PORTAL_WEBHOOK_SECRET }}
