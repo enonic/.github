@@ -1,4 +1,4 @@
-# Enonic: the CMS that adapts to your front-end
+# The CMS that adapts to your front-end
 
 Enonic's modular and headless architecture combines ease of use and flexibility in a platform built for mission critical deployments. Build your content model, customize the authoring interface, run server functions, and augment the API.
 
