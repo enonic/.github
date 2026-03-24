@@ -62,8 +62,8 @@ Enonic powers digital experiences for leading organizations including:
 
 ## Key repositories
 
-*   **[guillotine]((https://github.com/enonic/app-guillotine))**: The headless GraphQL API for Enonic XP.
-*   **[content-studio]((https://github.com/enonic/app-contentstudio))**: The official authoring interface for Enonic.
+*   **[guillotine](https://github.com/enonic/app-guillotine)**: The headless GraphQL API for Enonic XP.
+*   **[content-studio](https://github.com/enonic/app-contentstudio)**: The official authoring interface for Enonic.
 *   **[cli](https://github.com/enonic/cli-enonic)**: The Enonic command line interface for developers.
 *   **[starter-ts](https://github.com/enonic/starter-ts)**: A kickstart template for deploying schemas or customizing the back-end.
 *   **[xp](https://github.com/enonic/xp)**: The core Enonic XP platform and runtime.
