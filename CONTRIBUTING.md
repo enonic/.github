@@ -11,6 +11,6 @@ If you haven't already, please get in touch with us.  We have two primary channe
 2. Fork this repository.
 3. Make the changes in the code base.
 4. Squash your commits into one, before opening a pull request.
-5. Sign off the commit using name and email address that match your Github account, according to the instructions described in the [Pull request template](./pull_request_template.md).
+5. Sign off the commit using name and email address that match your Github account, according to the instructions described in the [Pull request template](./.github/ISSUE_TEMPLATE/pull_request_template.md).
 6. Push the changes and open a Pull Request.
 7. Notify us about the PR on the Community slack (or support desk if you are a paying customer).
