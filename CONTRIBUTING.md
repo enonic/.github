@@ -2,7 +2,7 @@
 We are really glad you're reading this, because we love to have volunteer developers helping our projects come to fruition.
 
 If you haven't already, please get in touch with us.  We have two primary channels for communication:
-* Our community on Slack: https://enonic-community.slack.com
+* Our community on Slack: https://slack.enonic.com
 * Our discussion forum: https://discuss.enonic.com/
 
 ## Submitting changes
